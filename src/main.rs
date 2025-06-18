@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    assert!(9.6_f32 / 3.2 == 3.0);
 }
