@@ -1,3 +1,8 @@
 fn main() {
-    assert!(9.6_f32 / 3.2 == 3.0);
+    let s = String::from("hello world");
+    let word = first_word(&s);
+    println!("the first word is: {}", word);
+}
+fn first_word(t: &String) -> &str {
+    &t[..1]
 }
